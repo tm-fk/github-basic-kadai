@@ -1,0 +1,37 @@
+PS C:\Users\user> cd "C:\Users\user\OneDrive\デスクトップ\mai"
+PS C:\Users\user\OneDrive\デスクト
+ップ\mai> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\user\On
+    eDrive\デスクトップ\mai
+
+
+Mode                 LastWriteTime
+----                 ------------- 
+d-----        2024/04/04     23:19 
+
+
+PS C:\Users\user\OneDrive\デスクト ップ\mai> cd git_challenge
+PS C:\Users\user\OneDrive\デスクト ップ\mai\git_challenge> git init
+Initialized empty Git repository in C:/Users/user/OneDrive/繝・せ繧ｯ繝医ャ繝・mai/git_challenge/.git/    
+PS C:\Users\user\OneDrive\デスクト ップ\mai\git_challenge> git add hello_world.txt.txt
+PS C:\Users\user\OneDrive\デスクト
+ップ\mai\git_challenge> git commit  -m "日本語訳を追記"
+[main (root-commit) ac60ebd] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 1 insertion(+)    
+ create mode 100644 hello_world.txt.txt
+PS C:\Users\user\OneDrive\デスクト ップ\mai\git_challenge> git add hello_world.txt.txt
+PS C:\Users\user\OneDrive\デスクト
+ップ\mai\git_challenge> git commit -m "hello_world.txtを追加"
+[main d152fa4] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\user\OneDrive\デスクト ップ\mai\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\user\OneDrive\デスクト
+PS C:\Users\user\OneDrive\デスクトップ\mai\git_challenge> git diff --staged
+PS C:\Users\user\OneDrive\デスクトップ\mai\git_challenge> git log --oneline
+d152fa4 (HEAD -> main) hello_world.txtを追加
+ac60ebd 日本語訳を追記
+PS C:\Users\user\OneDrive\デスクトップ\mai\git_challenge>
